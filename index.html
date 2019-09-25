@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,27 @@
     <title>TodoList</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
-<script src="script.js"></script>
+    <div class="container">
+        <div class="todo__app">
+            <header>
+                <h1 class="todo__title">Todo List</h1>
+                <input class="todo__input" type="text" placeholder="Entry" maxlength="38">
+            </header>
+            <main>
+                <ul class="todo__list">
+                    <li class="todo__item">
+                        <p class="todo__entry">Alan Watts</p>
+                        <span class="todo__delete">X</span>
+                        <span class="todo__max"> Max Characters 80</span>
+                        <p class="todo__details" >Master Philospher</p>
+                    </li>
+                </ul>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
